@@ -1,2 +1,8 @@
 dist/
 node_modules/
+.jest-cache/
+playwright-report/
+test-results/
+.env
+.env.*
+!.env.example

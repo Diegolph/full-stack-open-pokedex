@@ -1,0 +1,74 @@
+Warning: React version not specified in eslint-plugin-react settings. See https://github.com/jsx-eslint/eslint-plugin-react#configuration .
+
+C:\Users\diego\parte 11\pokedex\.eslintrc.js
+   1:1   error  'module' is not defined                       no-undef
+   2:3   error  Strings must use singlequote                  quotes
+   3:5   error  Strings must use singlequote                  quotes
+   4:5   error  Strings must use singlequote                  quotes
+   5:5   error  Strings must use singlequote                  quotes
+   7:3   error  Strings must use singlequote                  quotes
+   8:5   error  Strings must use singlequote                  quotes
+   9:5   error  Strings must use singlequote                  quotes
+  11:3   error  Strings must use singlequote                  quotes
+  12:5   error  Strings must use singlequote                  quotes
+  13:7   error  Strings must use singlequote                  quotes
+  15:5   error  Strings must use singlequote                  quotes
+  16:5   error  Strings must use singlequote                  quotes
+  16:19  error  Strings must use singlequote                  quotes
+  18:3   error  Strings must use singlequote                  quotes
+  19:5   error  Strings must use singlequote                  quotes
+  19:14  error  Strings must use singlequote                  quotes
+  21:3   error  Strings must use singlequote                  quotes
+  22:5   error  Strings must use singlequote                  quotes
+  23:7   error  Strings must use singlequote                  quotes
+  24:1   error  Expected indentation of 6 spaces but found 8  indent
+  25:1   error  Expected indentation of 4 spaces but found 6  indent
+  26:5   error  Strings must use singlequote                  quotes
+  27:7   error  Strings must use singlequote                  quotes
+  28:7   error  Strings must use singlequote                  quotes
+  30:5   error  Strings must use singlequote                  quotes
+  31:7   error  Strings must use singlequote                  quotes
+  32:7   error  Strings must use singlequote                  quotes
+  34:5   error  Strings must use singlequote                  quotes
+  35:7   error  Strings must use singlequote                  quotes
+  36:7   error  Strings must use singlequote                  quotes
+  38:5   error  Strings must use singlequote                  quotes
+  38:15  error  Strings must use singlequote                  quotes
+  39:5   error  Strings must use singlequote                  quotes
+  39:27  error  Strings must use singlequote                  quotes
+  40:5   error  Strings must use singlequote                  quotes
+  41:7   error  Strings must use singlequote                  quotes
+  41:16  error  Strings must use singlequote                  quotes
+  43:5   error  Strings must use singlequote                  quotes
+  44:7   error  Strings must use singlequote                  quotes
+  44:18  error  Strings must use singlequote                  quotes
+  44:34  error  Strings must use singlequote                  quotes
+  46:5   error  Strings must use singlequote                  quotes
+  46:19  error  Strings must use singlequote                  quotes
+  47:5   error  Strings must use singlequote                  quotes
+
+C:\Users\diego\parte 11\pokedex\app.js
+   1:17  error  'require' is not defined      no-undef
+   1:25  error  Strings must use singlequote  quotes
+   1:35  error  Extra semicolon               semi
+   2:22  error  Extra semicolon               semi
+   5:14  error  'process' is not defined      no-undef
+   5:38  error  Extra semicolon               semi
+   7:24  error  Strings must use singlequote  quotes
+   7:32  error  Extra semicolon               semi
+  10:3   error  Unexpected console statement  no-console
+  10:48  error  Extra semicolon               semi
+  11:3   error  Extra semicolon               semi
+
+C:\Users\diego\parte 11\pokedex\src\App.jsx
+  2:27  error  'Router' is defined but never used  no-unused-vars
+
+C:\Users\diego\parte 11\pokedex\src\PokemonPage.jsx
+  29:3  error  Unexpected console statement  no-console
+
+C:\Users\diego\parte 11\pokedex\test\PokemonPage.jest.spec.jsx
+  133:5  error  Trailing spaces not allowed  no-trailing-spaces
+
+✖ 59 problems (59 errors, 0 warnings)
+  53 errors and 0 warnings potentially fixable with the `--fix` option.
+
