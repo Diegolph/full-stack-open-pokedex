@@ -7,8 +7,9 @@
     "start": "webpack-dev-server --open --mode development",
     "start-prod": "node app.js",
     "test": "jest",
-    "eslint": "eslint './**/*.{js,jsx}'",
-    "build": "webpack --mode production"
+    "eslint": "eslint . --ext .js,.jsx,.cjs",
+    "build": "webpack --mode production",
+    "test:e2e": "playwright test"
   },
   "repository": {
     "type": "git",
@@ -55,6 +56,14 @@
     "react-router-dom": "^6.21.1"
   },
   "jest": {
-    "testEnvironment": "jsdom"
+    "testEnvironment": "jsdom",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/e2e-tests/"
+    ],
+    "cacheDirectory": "<rootDir>/.jest-cache"
+  },
+  "engines": {
+    "node": "24.x"
   }
 }
